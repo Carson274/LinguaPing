@@ -1,34 +1,24 @@
 import { Text, View, StyleSheet, SafeAreaView } from "react-native";
+import { useState, useEffect } from "react";
 import WordList from "../app/components/WordList";
-import { useState } from "react";
+import wordsData from "./words.json";
 
 export default function Index() {
-  const [words, setWords] = useState(
-    [
-      {
-        front: "hello",
-        back: "안녕하세요"
-      },
-      {
-        front: "bus",
-        back: "버스"
-      }
-    ]
-  );
+  const [words, setWords] = useState<Word[]>([]);
+
+  useEffect(() => {
+    setWords(wordsData);
+  }, []);
 
   return (
     <SafeAreaView style={styles.safeContent} >
       <View style={styles.container} >
         <Text style={styles.title} >Words</Text>
-        <>
-          {words.map((word, index) => (
-            <WordList key={index} word={word} />
-          ))}
-        </>
+        <WordList words={words} />
       </View>
     </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   safeContent: {
@@ -42,6 +32,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 32,
-    fontWeight: "600"
+    fontWeight: "600",
+    marginBottom: 20
   }
 });

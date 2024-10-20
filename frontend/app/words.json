@@ -1,0 +1,106 @@
+[
+  {
+    "front": "hello",
+    "back": "안녕하세요"
+  },
+  {
+    "front": "bus",
+    "back": "버스"
+  },
+  {
+    "front": "apple",
+    "back": "사과"
+  },
+  {
+    "front": "banana",
+    "back": "바나나"
+  },
+  {
+    "front": "car",
+    "back": "차"
+  },
+  {
+    "front": "dog",
+    "back": "개"
+  },
+  {
+    "front": "cat",
+    "back": "고양이"
+  },
+  {
+    "front": "house",
+    "back": "집"
+  },
+  {
+    "front": "book",
+    "back": "책"
+  },
+  {
+    "front": "water",
+    "back": "물"
+  },
+  {
+    "front": "food",
+    "back": "음식"
+  },
+  {
+    "front": "school",
+    "back": "학교"
+  },
+  {
+    "front": "teacher",
+    "back": "선생님"
+  },
+  {
+    "front": "student",
+    "back": "학생"
+  },
+  {
+    "front": "friend",
+    "back": "친구"
+  },
+  {
+    "front": "family",
+    "back": "가족"
+  },
+  {
+    "front": "love",
+    "back": "사랑"
+  },
+  {
+    "front": "happy",
+    "back": "행복"
+  },
+  {
+    "front": "sad",
+    "back": "슬픔"
+  },
+  {
+    "front": "music",
+    "back": "음악"
+  },
+  {
+    "front": "movie",
+    "back": "영화"
+  },
+  {
+    "front": "computer",
+    "back": "컴퓨터"
+  },
+  {
+    "front": "phone",
+    "back": "전화기"
+  },
+  {
+    "front": "table",
+    "back": "테이블"
+  },
+  {
+    "front": "chair",
+    "back": "의자"
+  },
+  {
+    "front": "window",
+    "back": "창문"
+  }
+]
